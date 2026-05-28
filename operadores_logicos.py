@@ -18,6 +18,7 @@ pode_pagar   = tem_conta and tem_saldo
 print(pode_pagar)   # False — saldo insuficiente
 
 
+
 # OR — retorna True quando pelo menos um lado é True
 
 tem_wifi     = False
@@ -39,6 +40,7 @@ print(nao_logado)    # True
 logado       = True
 nao_logado   = not logado
 print(nao_logado)    # False
+
 
 
 # Exemplo prático: sistema de login com verificação de acesso
