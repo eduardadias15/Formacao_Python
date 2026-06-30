@@ -9,3 +9,9 @@ print(a // b) # 5 → divisão inteira (descarta resto)
 print(a % b) # 0 → resto da divisão
 print(a ** b) # 100 → 10²
 
+
+    # ordem de precedência dos operadores
+    #1. ()
+    # 2. **
+    # 3. * / // %
+    # 4. + -
