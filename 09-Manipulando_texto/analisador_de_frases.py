@@ -1,0 +1,6 @@
+frase=str(input('Digite uma frase: '))
+print(frase.upper())
+print(frase.lower())
+print(frase.count('a'))
+print(frase.find('a'))
+print(frase[::-1])
