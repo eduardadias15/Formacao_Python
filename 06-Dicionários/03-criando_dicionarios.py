@@ -10,3 +10,5 @@ vazio = dict()
 
 # Dict com tipos mistos
 misto = {"id": 1, "ativo": True, "scores": [10, 20, 30]}
+
+print(pessoa)

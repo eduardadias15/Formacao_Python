@@ -2,7 +2,7 @@ nome= input('Informe seu nome: ')
 peso= float(input('Informe seu peso em kg: '))
 altura= float(input('Informe sua altura em metros: '))
 IMC= peso/(altura**2)
-IMCarredondado= round(IMC,1)
+IMCarredondado= round(IMC, 1)
 if IMC < 18.5:
     classificação= 'Abaixo do peso'
 elif IMC >= 18.5 and IMC <= 24.9:

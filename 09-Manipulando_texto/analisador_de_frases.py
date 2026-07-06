@@ -1,6 +1,6 @@
-frase=str(input('Digite uma frase: '))
+frase=str(input('Digite uma frase: ')).strip()
 print(frase.upper())
 print(frase.lower())
-print(frase.count('a'))
-print(frase.find('a'))
+print(frase.upper().count('A'))   # conta ignorando maiúscula/minúscula
+print(frase.upper().find('A'))    # encontra ignorando maiúscula/minúscula
 print(frase[::-1])

@@ -3,4 +3,4 @@ if Nome == 'Eduarda':
     print('Que nome lindo!')
 else: 
     print('Seu nome é normal.')
-print(f'Bomdia, {Nome}!')
+print(f'Bom dia, {Nome}!')
